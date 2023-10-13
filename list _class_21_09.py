@@ -1,9 +1,9 @@
-# 1.extend()
+# 1.extend() adds 2 list
 a1=[1,2,3]
 b1=[4,5,6]
 a1.extend(b1)
 print(a1)
-
+print(a1+b1)
 # 2.remove()we can remove particular char cannot remove value at particular index
 a2=[1,2,3]
 a2.remove(1)
@@ -63,5 +63,4 @@ print(a93>a94) #true "d husky value greater than D"
 #8.deleting list
 a8=[1,2,3]
 del a8
-print(a8)
 

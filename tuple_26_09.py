@@ -23,3 +23,7 @@ emp1,emp2,emp3,emp4=("mala","kav","bhar","nar")
 emp1,*emp2=("mala","kav","bhar","nar")
 print(emp1)
 print(emp2)
+#tuple comprehension
+word=("mala","kavi","raj","yadav")
+tup=((i for i in word if "j" in i ))
+print(tuple(tup))

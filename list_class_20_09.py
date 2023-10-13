@@ -24,3 +24,5 @@ print(b1)
 #insert value at particular index
 a2.insert(2,"apple")
 print(a2)
+a1=(1,2,3)
+print(a1.insert(2,"india"))
