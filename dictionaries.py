@@ -27,7 +27,6 @@ print(word1.popitem())
 print(word1.keys())
 print(word1.values())
 print(word1.items())
-
 #take
 word3={}
 for i in range(3):
@@ -35,3 +34,7 @@ for i in range(3):
     value=input("enter: ")
     word3[key]=value
 print(word3)
+
+
+
+ 
