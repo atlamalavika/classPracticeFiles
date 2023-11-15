@@ -14,3 +14,4 @@ for i in a:
     i1=str(i)
     str1+=i1
 print(str1)
+
